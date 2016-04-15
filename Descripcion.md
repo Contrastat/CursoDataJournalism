@@ -14,7 +14,7 @@ Dado que tendremos poco tiempo, sería **muy conveniente** que la gente venga co
 * Finalmente, deberíamos instalarnos algunos de los paquetes de R que nos permitiran hacer el análisis. Estos son ggplot2, dplyr, tidyr, RColorBrewer, GGally, reshape2, data.table. Esta parte quizás es un poco más complicada para aquellos que nunca han utilizado este programa, por lo que espero que las imágenes de aquí sirvan para ilustrar.
 	+ Pas 1 ![](https://cloud.githubusercontent.com/assets/9589870/14566652/b8ade3f4-0330-11e6-91b1-e97ab7cad709.png)
 	+ Pas 2 ![](https://cloud.githubusercontent.com/assets/9589870/14566654/b8b19daa-0330-11e6-9d1c-7805e4af1a29.png)
-	+ Pas 3 <img src="https://cloud.githubusercontent.com/assets/9589870/14566653/b8b10746-0330-11e6-9880-91a53977d546.png" width="4000" height = "3000">
+	+ Pas 3 <img src="https://cloud.githubusercontent.com/assets/9589870/14566653/b8b10746-0330-11e6-9880-91a53977d546.png" width="2000" height = "2000">
 
 ## Qué haremos
 * Aprender a cargar ficheros en R
