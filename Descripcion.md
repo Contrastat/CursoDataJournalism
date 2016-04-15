@@ -12,7 +12,7 @@ Dado que tendremos poco tiempo, sería **muy conveniente** que la gente venga co
 	+ Diseño de registro y valores válidos [link](ftp://www.ine.es/temas/epa/disereg_epa0513.zip)
 	+ Cuestionario [link](http://www.ine.es/inebaseDYN/epa30308/docs/epacues05.pdf)
 * Finalmente, deberíamos instalarnos algunos de los paquetes de R que nos permitiran hacer el análisis. Estos son ggplot2, dplyr, tidyr, RColorBrewer, GGally, reshape2, data.table. Esta parte quizás es un poco más complicada para aquellos que nunca han utilizado este programa, por lo que espero que las imágenes de aquí sirvan para ilustrar.
-	+ Pas 1 ![alt tag](https://cloud.githubusercontent.com/assets/9589870/14566652/b8ade3f4-0330-11e6-91b1-e97ab7cad709.png)
+	+ Pas 1 ![alt tag](https://cloud.githubusercontent.com/assets/9589870/14566652/b8ade3f4-0330-11e6-91b1-e97ab7cad709.png=100x20)
 
 ## Qué haremos
 * Aprender a cargar ficheros en R
