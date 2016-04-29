@@ -30,6 +30,19 @@ Dado que tendremos poco tiempo (1h30m), sería **muy conveniente** que la gente 
 Si bien la EPA es solo uno de los ficheros de micro datos que tiene el INE a disposición, posiblemente sea uno de los más utilizados en lo relativo a cuestiones laborales. Existen otros igual de interesantes (por ejemplo Encuesta de Condiciones de Vida [link](http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176807&menu=resultados&secc=1254736195153&idp=1254735976608), Encuesta de Presupuesto Familiares [link](http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176806&menu=resultados&secc=1254736195147&idp=1254735976608)). De todas formas, el análisis que haremos es fácilmente trasladable a estos ficheros o a cualquier otro que uno quiera utilizar. Espero les sea de utilidad.
 
 ## Línea de R que utilizaremos
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(RColorBrewer)
+library(GGally)
+library(scales)
+library(memisc)
+library(gridExtra)
+library(reshape2)
+library(data.table)
+
+select <- dplyr::select 
+
 
 epa.fixed <- read.fwf("datos_t42015.txt", width = c(3,2,2,5,1,2,2,1,1,2,2,2,1,1,2,3,1,3,2,2,2,3,1,2,1,2,3,2,1,1,1,2,2,1,1,1,2,1,1,1,2,2,2,3,3,2,3,1,2,4,4,4,1,4,4,2,1,1,1,2,4,1,1,2,2,1,1,1,1,2,1,1,2,1,1,1,3,1,1,2,1,2,2,2,1,1,1,2,3,1,2,2,7))
 
