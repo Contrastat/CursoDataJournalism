@@ -1,7 +1,6 @@
 # CursoDataJournalism
 
-Estos son los ficheros para el mini taller que hicimos en Hack Hackers BCN. Tiene el fichero de las slides (DesempleoEPA.Rpres)y el codigo del programa (simplereader.R)
-Tambien incluí un código un poco más complicado (EpaReader.R)
+Estos son los ficheros para el mini taller que hicimos en Hack Hackers BCN. Tiene el fichero de las slides, el codigo del programa (simplereader.R) y un código un poco más complicado (EpaReader.R)
 
 El script de R simplereader.R sirve para cargar los datos de la EPA, crear variables, agregar la información a nivel de una variable (por ejemplo desempleo a  nivel de provincia) y guardar el resultado en un fichero de csv. 
 
@@ -11,4 +10,4 @@ Para usar el EpaReader.R hay bajarse mas trimestres de la EPA (desde 2005 a 2015
 
 Evidentemente se puede modificar el script para usarlo de otra manera (cargar otro año y hacer que el loop sea mas corto o hacer que el loop sea mas largo e incluya mas trimestres y no solamente el cuarto).
 
-
+También está el código utilizado para hacer las slides en R (DesempleoEPA.Rpres)
